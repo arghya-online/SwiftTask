@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.hover\:border-gradient:hover {
+  border: 2px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(90deg, #2E8BC0, #145DA0) border-box;
+}
