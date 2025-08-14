@@ -1,6 +1,7 @@
 // Hero.jsx
 import React from "react";
 import { motion } from "framer-motion";
+import phonemockup from "../assets/phone-mockup.png";
 
 export default function Hero() {
   const containerVariants = {
@@ -72,7 +73,7 @@ export default function Hero() {
           animate="visible"
         >
           <motion.img
-            src="https://via.placeholder.com/250x500"
+            src="phonemockup"
             alt="Phone mockup 1"
             className="rounded-3xl shadow-2xl transform rotate-[-6deg]"
             whileHover={{ rotate: -4, scale: 1.05 }}
